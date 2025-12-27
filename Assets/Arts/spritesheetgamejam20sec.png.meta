@@ -1,0 +1,1799 @@
+fileFormatVersion: 2
+guid: 51a9538d49aba7e48b2e639d189a0d70
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2214
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6ac6dd7d1effe468f523b696246d3d
+      internalID: -853546861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2214
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9628569e8c914141b3db27a9da992bf
+      internalID: 920911985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_2
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 2214
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b807f5377ce924c9800a0285774038
+      internalID: 1283713172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_3
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 2214
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f11e1d550d7c354fa0cafea28471116
+      internalID: -1275448249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_4
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 2214
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bf9fd9c937e8e4eace4e7e0c46b618
+      internalID: 837180941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_5
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 2214
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5920b1d0945d3e4081f09d97c0c7558
+      internalID: -811021291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_6
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 2214
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbf91ff804616a4ea376c56c1d8b170
+      internalID: 2080794064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_7
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 2214
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43186a7d9e10bf3408b1487a8816b1b7
+      internalID: -448847651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_8
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 2214
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c65ffef8dc150d40b157a7d387da941
+      internalID: -1848264796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_9
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 2214
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da1dc7202ca7f245afcd58ff67fbefa
+      internalID: -1696266666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1845
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d183f528577bfa45adacabf628d8b02
+      internalID: 1243560837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_11
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1845
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e278743859d66a246ab67271e5ebcec4
+      internalID: 306119443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_12
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1845
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0733404ce4c56fc4e8e8e1da3c54d0df
+      internalID: -1802706549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_13
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1845
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878ff1a3ab2a4c64a84799952c6f2c31
+      internalID: 1422038322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_14
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 1845
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e9c6c54d58d8240836abe896868afa
+      internalID: 1776705292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_15
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1845
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd39e1dcbdc35844aa860106cd014232
+      internalID: 217418650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_16
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 1845
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5224a2efe9d79774c91c650aa33965e4
+      internalID: -1989295719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_17
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 1845
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f75e5b1f32b134b9bbd2ca9e09e983
+      internalID: 1810962386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_18
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 1845
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a31dda209913da49ab7fe161766c1dc
+      internalID: 1056871084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_19
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 1845
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2928db458fe757b49a04ed4709d5e8f4
+      internalID: -342235145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_20
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 1845
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabbe91b46197a94f895ea77d28c4a3c
+      internalID: -206787933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1476
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf7e759d0094fb4baa297e9dfea3532
+      internalID: -74454968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_22
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1476
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c582018e2ee485247bddc0f152a695b3
+      internalID: 534824936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1476
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fc1c97ef52e7347ab29b0903245902
+      internalID: 1767971955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_24
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1476
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079608163c27d5545a880305ad20cdeb
+      internalID: -1235494000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_25
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 1476
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad6bfcaa12701d4f9ce3fe69d6613cf
+      internalID: 896496121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_26
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1476
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff0ddcb88d713c4d8d0395066ab583b
+      internalID: -353317321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_27
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 1476
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6721da694c13254282d87ed11ce0ea9
+      internalID: -1500179060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_28
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 1476
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2259333c4f80e6f4e82d7d60ddc9e643
+      internalID: 124865989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_29
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 1476
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28c0770fd0762c4682b1d98dada2017
+      internalID: -287436525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_30
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 1476
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f571e763773b0546b0409818676bfdd
+      internalID: 1086321938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_31
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 1476
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d445746d967c1ce488149af6d22e98fb
+      internalID: -2145642043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1107
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a114d442f5323834cacf3a05520c89bc
+      internalID: -1559739292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_33
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1107
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2356a31a8a7947d40b4b8134d522176b
+      internalID: -1049937185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_34
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1107
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bae914bed76e946afaebbeefb0da64
+      internalID: 1215599704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_35
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1107
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e09e406d0d39741806d10c5654559c
+      internalID: 764371884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_36
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 1107
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d6a24e5ab93714fa08e231c555a5a6
+      internalID: -1355346296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_37
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1107
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fa0cbd68d473342a736895b69362f3
+      internalID: -1726799653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_38
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 1107
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d044ece6f4dbe0a4c95813ab73d0f493
+      internalID: -1569268931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_39
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 1107
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c8d8a9bf78e5a4fb3a0fabc77bbbb9
+      internalID: 1430323437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_40
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 1107
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74817dffefa9d224ba1d73f78acd26c7
+      internalID: 1476763818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_41
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 1107
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae43ff3b112c285409a0fff8b78bf182
+      internalID: -850654112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_42
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 1107
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e415b32529d352409178ce80e8dbbab
+      internalID: -872124492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 738
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c1e2c552fa06643b274c266919bb63
+      internalID: 2124380076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_44
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 738
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0185c73d9383ba468e1e0f8174c35b3
+      internalID: 1989291134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_45
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 738
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff581d5c0180574da66a123f92c95e2
+      internalID: -1062564828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_46
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 738
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdf8af3b82d20f4faa549e10506f4e1
+      internalID: -1345874996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_47
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 738
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdea3fe9b39fbf145a87d82946fc08c3
+      internalID: 405735890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_48
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 738
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9a60a4a022cc6409f0ce0547714520
+      internalID: -303353336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_49
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 738
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fd1ab8da0cd1a45a7f0fc310010d51
+      internalID: -1423867340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_50
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 738
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1b57740fc36564db1f410db291c725
+      internalID: -1961298767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_51
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 738
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf908f1e82d781438a186e592034466
+      internalID: -1639247456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_52
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 738
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f4fe64e43bed64fae5999642f71af3
+      internalID: 941931000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_53
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 738
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8a2f507a739924c925a7e9d00f4087
+      internalID: 2096134854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7092b56f72a84458bd2e332bb3cef5
+      internalID: 361942012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_55
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 369
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f13011b2e885e44eaad0c478fdcb71d
+      internalID: 1788255906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_56
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 369
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30bf30243e133547aaddd33e767fce3
+      internalID: -1634783209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_57
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 369
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2c65c8203b5fb4b96366352eb4b06f
+      internalID: -2038322729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_58
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 369
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ce755654d1879419b4672125f4e7b6
+      internalID: -104173603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_59
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 369
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf639ee1908bbe4cb84f1a2461bba48
+      internalID: 1889038869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_60
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 369
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcbdd01dab9db647a5cb0e540ad0f03
+      internalID: -71873816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_61
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 369
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4d9e53fa647984997350f9710a0a4f
+      internalID: 1656579289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_62
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 369
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a931e27f711ed41b8e41e3d2ace253
+      internalID: -1467527961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_63
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 369
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1c206337a71a040a8b85016eede988
+      internalID: 340482654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_64
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 369
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bdda8451ac5da469034a4f579b009a
+      internalID: 1070910221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcc02f41fad2794f850264530186b06
+      internalID: -1938291090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_66
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 0
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5740fa4f48c6b174588dc850e43ac05d
+      internalID: -467639126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_67
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 0
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee7001afd8f6814fbe62626057af984
+      internalID: 1704156093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_68
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 0
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfabd07927c70b47821c01368740e62
+      internalID: 1701739824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_69
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 0
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c7b9ea102b32b45a6087a5d40ebf80
+      internalID: 69773041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_70
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 0
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6c0cb22eb0b4646a2b84625242fe1f
+      internalID: 929922424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_71
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 0
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71064181ae4b1004cb0661e6b22c2352
+      internalID: 2003300374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_72
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 0
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ea926e8b5670a43ba345b37a63a3d0
+      internalID: -2029778976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_73
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 0
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38499e6f309d7a41be7d1d1ddd16922
+      internalID: -74474829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_74
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 0
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2ce8782f2d74242af385af70545bf8
+      internalID: 813653985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetgamejam20sec_75
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 0
+        width: 349
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4fa96e75ed58542bdecdff79afd36b
+      internalID: -1527695391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spritesheetgamejam20sec_0: -853546861
+      spritesheetgamejam20sec_1: 920911985
+      spritesheetgamejam20sec_10: 1243560837
+      spritesheetgamejam20sec_11: 306119443
+      spritesheetgamejam20sec_12: -1802706549
+      spritesheetgamejam20sec_13: 1422038322
+      spritesheetgamejam20sec_14: 1776705292
+      spritesheetgamejam20sec_15: 217418650
+      spritesheetgamejam20sec_16: -1989295719
+      spritesheetgamejam20sec_17: 1810962386
+      spritesheetgamejam20sec_18: 1056871084
+      spritesheetgamejam20sec_19: -342235145
+      spritesheetgamejam20sec_2: 1283713172
+      spritesheetgamejam20sec_20: -206787933
+      spritesheetgamejam20sec_21: -74454968
+      spritesheetgamejam20sec_22: 534824936
+      spritesheetgamejam20sec_23: 1767971955
+      spritesheetgamejam20sec_24: -1235494000
+      spritesheetgamejam20sec_25: 896496121
+      spritesheetgamejam20sec_26: -353317321
+      spritesheetgamejam20sec_27: -1500179060
+      spritesheetgamejam20sec_28: 124865989
+      spritesheetgamejam20sec_29: -287436525
+      spritesheetgamejam20sec_3: -1275448249
+      spritesheetgamejam20sec_30: 1086321938
+      spritesheetgamejam20sec_31: -2145642043
+      spritesheetgamejam20sec_32: -1559739292
+      spritesheetgamejam20sec_33: -1049937185
+      spritesheetgamejam20sec_34: 1215599704
+      spritesheetgamejam20sec_35: 764371884
+      spritesheetgamejam20sec_36: -1355346296
+      spritesheetgamejam20sec_37: -1726799653
+      spritesheetgamejam20sec_38: -1569268931
+      spritesheetgamejam20sec_39: 1430323437
+      spritesheetgamejam20sec_4: 837180941
+      spritesheetgamejam20sec_40: 1476763818
+      spritesheetgamejam20sec_41: -850654112
+      spritesheetgamejam20sec_42: -872124492
+      spritesheetgamejam20sec_43: 2124380076
+      spritesheetgamejam20sec_44: 1989291134
+      spritesheetgamejam20sec_45: -1062564828
+      spritesheetgamejam20sec_46: -1345874996
+      spritesheetgamejam20sec_47: 405735890
+      spritesheetgamejam20sec_48: -303353336
+      spritesheetgamejam20sec_49: -1423867340
+      spritesheetgamejam20sec_5: -811021291
+      spritesheetgamejam20sec_50: -1961298767
+      spritesheetgamejam20sec_51: -1639247456
+      spritesheetgamejam20sec_52: 941931000
+      spritesheetgamejam20sec_53: 2096134854
+      spritesheetgamejam20sec_54: 361942012
+      spritesheetgamejam20sec_55: 1788255906
+      spritesheetgamejam20sec_56: -1634783209
+      spritesheetgamejam20sec_57: -2038322729
+      spritesheetgamejam20sec_58: -104173603
+      spritesheetgamejam20sec_59: 1889038869
+      spritesheetgamejam20sec_6: 2080794064
+      spritesheetgamejam20sec_60: -71873816
+      spritesheetgamejam20sec_61: 1656579289
+      spritesheetgamejam20sec_62: -1467527961
+      spritesheetgamejam20sec_63: 340482654
+      spritesheetgamejam20sec_64: 1070910221
+      spritesheetgamejam20sec_65: -1938291090
+      spritesheetgamejam20sec_66: -467639126
+      spritesheetgamejam20sec_67: 1704156093
+      spritesheetgamejam20sec_68: 1701739824
+      spritesheetgamejam20sec_69: 69773041
+      spritesheetgamejam20sec_7: -448847651
+      spritesheetgamejam20sec_70: 929922424
+      spritesheetgamejam20sec_71: 2003300374
+      spritesheetgamejam20sec_72: -2029778976
+      spritesheetgamejam20sec_73: -74474829
+      spritesheetgamejam20sec_74: 813653985
+      spritesheetgamejam20sec_75: -1527695391
+      spritesheetgamejam20sec_8: -1848264796
+      spritesheetgamejam20sec_9: -1696266666
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
