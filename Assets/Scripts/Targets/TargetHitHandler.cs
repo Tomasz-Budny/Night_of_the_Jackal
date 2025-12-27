@@ -12,7 +12,7 @@ namespace Assets.Scripts.Targets
 
         public void OnMouseDown()
         {
-            GameManager.Instance.targetsShot.Add(name);
+            GameManager.Instance.targetsHit.Add(name);
 
             if (moveSystem != null) moveSystem.enabled = false;
             if (behaviour != null)  behaviour.enabled = false;

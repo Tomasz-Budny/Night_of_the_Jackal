@@ -36,7 +36,22 @@ namespace Assets.Scripts.Targets
             else
             {
                 visualController.SetIsWalking(true);
+                AlignRotation();
                 transform.position = Vector3.MoveTowards(transform.position, _currentDestination, speed * Time.deltaTime);
+            }
+        }
+
+        private void AlignRotation()
+        {
+            var direction = _currentDestination - transform.position;
+
+            if (direction.x < 0)
+            {
+                visualController.transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
+            else
+            {
+                visualController.transform.rotation = Quaternion.Euler(0, 0, 0);
             }
         }
     }
