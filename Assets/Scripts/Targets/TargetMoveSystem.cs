@@ -4,12 +4,17 @@ using UnityEngine.AI;
 
 namespace Assets.Scripts.Targets
 {
-    internal class TargetMoveSystem : MonoBehaviour
+    internal abstract class TargetAbstractMoveSystem : MonoBehaviour
+    {
+        public event Action OnDestinationAchieved;
+        public abstract void SetDestination(Vector3 destination);
+    }
+
+    internal class TargetMoveSystem : TargetAbstractMoveSystem
     {
         public TargetBehaviourController targetBehaviourController;
         public TargetVisualController visualController;
         public float stopDistance = 0.2f;
-
 
         public event Action OnDestinationAchieved;
 
@@ -28,7 +33,7 @@ namespace Assets.Scripts.Targets
             agent.updateUpAxis = false;
         }
 
-        public void SetDestination(Vector3 destination)
+        public override void SetDestination(Vector3 destination)
         {
             agent.SetDestination(destination);
             destinationSet = true;

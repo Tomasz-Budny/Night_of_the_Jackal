@@ -8,7 +8,7 @@ namespace Assets.Scripts.Targets
         public string name;
         public TargetVisualController visual;
         public TargetBehaviourController behaviour;
-        public TargetMoveSystem moveSystem;
+        public TargetSimpleMoveSystem moveSystem;
 
         public void OnMouseDown()
         {

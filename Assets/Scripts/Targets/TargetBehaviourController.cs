@@ -15,7 +15,7 @@ namespace Assets.Scripts.Targets
 
     internal class TargetBehaviourController : MonoBehaviour
     {
-        public TargetMoveSystem moveSystem;
+        public TargetSimpleMoveSystem moveSystem;
         public TargetVisualController visualController;
 
         public List<TargetBehaviour> targetBehaviours;
