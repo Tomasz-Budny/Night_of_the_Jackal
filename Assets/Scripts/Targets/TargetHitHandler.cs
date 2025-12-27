@@ -12,15 +12,7 @@ namespace Assets.Scripts.Targets
 
         public void OnMouseDown()
         {
-            if (GameManager.Instance.targetName == name)
-            {
-                GameManager.Instance.gameResult = GameResult.PlayerWon;
-            }
-            else
-            {
-                GameManager.Instance.gameResult = GameResult.WrongTargetHit;
-            }
-
+            GameManager.Instance.targetsShot.Add(name);
 
             if (moveSystem != null) moveSystem.enabled = false;
             if (behaviour != null)  behaviour.enabled = false;

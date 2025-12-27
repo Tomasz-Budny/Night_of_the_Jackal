@@ -5,17 +5,17 @@ using UnityEngine.EventSystems;
 
 public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler
 {
-    private RectTransform rt;
-    private Canvas canvas;
+    protected RectTransform rt;
+    protected Canvas canvas;
 
-    void Awake()
+    public virtual void Awake()
     {
         rt = (RectTransform)transform;
         canvas = GetComponentInParent<Canvas>();
         if (canvas == null) Debug.LogError("Brak Canvas w parentach.");
     }
 
-    public void OnBeginDrag(PointerEventData eventData)
+    public virtual void OnBeginDrag(PointerEventData eventData)
     {
         // Opcjonalnie: przenieœ na wierzch, ¿eby nie chowa³o siê pod innymi
         transform.SetAsLastSibling();

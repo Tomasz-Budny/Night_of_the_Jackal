@@ -1,6 +1,8 @@
 ﻿using Assets.Scripts.Architecture;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 namespace Assets.Scripts
 {
@@ -11,6 +13,8 @@ namespace Assets.Scripts
         public Vector2 handCursorHotspot;
 
         private bool _handCursorActive = false;
+
+        public GraphicRaycaster shotAreaRaycaster;
 
         void Start()
         {
@@ -25,17 +29,33 @@ namespace Assets.Scripts
 
         private void Update()
         {
-            bool overUI = IsPointerOverUI();
+            //bool overUI = IsPointerOverUI();
 
-            if (overUI && !_handCursorActive)
-            {
-                Cursor.SetCursor(handCursor, new Vector2(handCursor.width / 2, handCursor.height / 2), CursorMode.Auto);
-                _handCursorActive = true;
-            }
-            else if (!overUI && _handCursorActive)
+            //if (overUI && !_handCursorActive)
+            //{
+            //    Cursor.SetCursor(handCursor, new Vector2(handCursor.width / 2, handCursor.height / 2), CursorMode.Auto);
+            //    _handCursorActive = true;
+            //}
+            //else if (!overUI && _handCursorActive)
+            //{
+            //    Cursor.SetCursor(crosshairCursor, new Vector2(crosshairCursor.width / 2, crosshairCursor.height / 2), CursorMode.Auto);
+            //    _handCursorActive = false;
+            //}
+
+            PointerEventData data = new PointerEventData(EventSystem.current);
+            data.position = Input.mousePosition;
+
+            List<RaycastResult> results = new List<RaycastResult>();
+
+            if(shotAreaRaycaster != null) shotAreaRaycaster.Raycast(data, results);
+
+            if (results.Count > 0)
             {
                 Cursor.SetCursor(crosshairCursor, new Vector2(crosshairCursor.width / 2, crosshairCursor.height / 2), CursorMode.Auto);
-                _handCursorActive = false;
+            }
+            else
+            {
+                Cursor.SetCursor(handCursor, new Vector2(handCursor.width / 2, handCursor.height / 2), CursorMode.Auto);
             }
         }
     }
