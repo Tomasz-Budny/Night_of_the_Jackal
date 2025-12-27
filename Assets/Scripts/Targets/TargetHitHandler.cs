@@ -19,7 +19,7 @@ namespace Assets.Scripts.Targets
 
             TimerManager.Instance.stopped = true;
             visual.PlayAnimation("die");
-            visual.OnAnimationBehaviourEnds += OnPlayerDied;
+            //visual.OnAnimationBehaviourEnds += OnPlayerDied;
         }
 
         private void OnPlayerDied()

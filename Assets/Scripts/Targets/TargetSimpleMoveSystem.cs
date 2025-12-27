@@ -7,6 +7,7 @@ namespace Assets.Scripts.Targets
     internal class TargetSimpleMoveSystem : MonoBehaviour
     {
         public float speed;
+        public float runSpeed;
         public float stopDistance = 0.1f;
         public TargetVisualController visualController;
 

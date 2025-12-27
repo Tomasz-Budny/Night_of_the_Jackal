@@ -7,6 +7,7 @@ namespace Assets.Scripts.Targets
     {
         public Animator animator;
         public Action OnAnimationBehaviourEnds;
+        public Action OnEscapePathAchieved;
 
         public void PlayAnimation(string animationName)
         {
@@ -18,9 +19,20 @@ namespace Assets.Scripts.Targets
             OnAnimationBehaviourEnds?.Invoke();
         }
 
+        public void PerformOnEscapePathAchieved()
+        {
+            OnEscapePathAchieved?.Invoke();
+        }
+
         public void SetIsWalking(bool isWalking)
         {
             animator.SetBool("walk", isWalking);
+        }
+
+        public void SetWalkSpeed(float speed)
+        {
+            animator.SetFloat("walk_speed", speed);
+
         }
     }
 }

@@ -20,7 +20,7 @@ namespace Assets.Scripts
             "minimalist",
             "plutocrat",
             "oppositionist",
-            "lider",
+            "leader",
             "influencer",
             "artist",
             "detective",
