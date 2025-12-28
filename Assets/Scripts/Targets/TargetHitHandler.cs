@@ -22,15 +22,15 @@ namespace Assets.Scripts.Targets
             //visual.OnAnimationBehaviourEnds += OnPlayerDied;
         }
 
-        private void OnPlayerDied()
-        {
-            StartCoroutine(EndGameCoroutine());
-        }
+        //private void OnPlayerDied()
+        //{
+        //    StartCoroutine(EndGameCoroutine());
+        //}
 
-        private IEnumerator EndGameCoroutine()
-        {
-            yield return new WaitForSeconds(1.5f);
-            SceneLoaderManager.Instance.LoadCreditsScene();
-        }
+        //private IEnumerator EndGameCoroutine()
+        //{
+        //    yield return new WaitForSeconds(1.5f);
+        //    SceneLoaderManager.Instance.LoadCreditsScene();
+        //}
     }
 }

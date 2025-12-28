@@ -37,6 +37,7 @@ namespace Assets.Scripts
 
         public void LoadCreditsScene()
         {
+            Debug.Log("Loading Credits Scene");
             SceneManager.UnloadSceneAsync("GameScene");
             LoadSceneAsync("CreditsScene");
         }

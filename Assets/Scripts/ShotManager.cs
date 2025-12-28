@@ -13,6 +13,7 @@ namespace Assets.Scripts
     internal class ShotManager : SingletonInstance<ShotManager>
     {
         public GraphicRaycaster shotAreaRaycaster;
+        public AudioSource sniperRifleAudioSource;
 
         private bool shotFirstTime = false;
 
@@ -20,7 +21,7 @@ namespace Assets.Scripts
 
         private void Update()
         {
-            if(Input.GetMouseButtonDown(0) && !shotFirstTime)
+            if(Input.GetMouseButtonDown(0))
             {
                 PointerEventData data = new PointerEventData(EventSystem.current);
                 data.position = Input.mousePosition;
@@ -29,12 +30,24 @@ namespace Assets.Scripts
 
                 if (shotAreaRaycaster != null) shotAreaRaycaster.Raycast(data, results);
 
-                if(results.Count > 0 )
+                if(results.Count > 0 && !shotFirstTime)
                 {
                     shotFirstTime = true;
                     OnShotFirstTime?.Invoke();
                 }
+
+                if(results.Count > 0)
+                {
+                    PlaySniperRifleSound();
+                }
             }
+
+
+        }
+
+        private void PlaySniperRifleSound()
+        {
+            sniperRifleAudioSource.Play();
         }
     }
 }
