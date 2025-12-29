@@ -10,7 +10,10 @@ namespace Assets.Scripts
     {
         public Texture2D crosshairCursor;
         public Texture2D handCursor;
+        public Texture2D dragCursor;
         public Vector2 handCursorHotspot;
+
+        public bool dragging = false;
 
         private bool _handCursorActive = false;
 
@@ -55,7 +58,14 @@ namespace Assets.Scripts
             }
             else
             {
-                Cursor.SetCursor(handCursor, new Vector2(handCursor.width / 2, handCursor.height / 2), CursorMode.Auto);
+                if(!dragging)
+                {
+                    Cursor.SetCursor(handCursor, new Vector2(handCursor.width / 2, handCursor.height / 2), CursorMode.Auto);
+                }
+                else
+                {
+                    Cursor.SetCursor(dragCursor, new Vector2(dragCursor.width / 2, dragCursor.height / 2), CursorMode.Auto);
+                }
             }
         }
     }

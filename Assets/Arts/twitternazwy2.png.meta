@@ -1,0 +1,742 @@
+fileFormatVersion: 2
+guid: 17553c7045a192a4bb186a76fe3687b0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: twitternazwy2_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 951
+        width: 495
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a320e641ad2176d428ebb5cef7bfde13
+      internalID: 611425405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_1
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1096
+        width: 96
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cec83f3544fe824d8c7b39d3812ccf9
+      internalID: 886510924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_2
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1092
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fd96056136e37409e0562d7c56cf9b
+      internalID: -1071999379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_3
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1100
+        width: 200
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf645ff1b48e85438f1b7284b11618b
+      internalID: 330451548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_7
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1096
+        width: 89
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56499d7e33d6e0945801d971bb81fe98
+      internalID: 1269664024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_8
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1072
+        width: 112
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fac1d1a908efaa42b6404985e3c71c5
+      internalID: -386136434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_11
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1081
+        width: 90
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca56a47b711d5b148891a2ecd5aa0ee3
+      internalID: 416749222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_14
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1096
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52970d7fb9e87e647a1dc86455c60f40
+      internalID: 1323767492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_15
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1095
+        width: 83
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750ef7c8dbe8dcc419415abcda8717ca
+      internalID: -1607745874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_16
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1099
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cf478804958fe4bb2d51ae758c5cb7
+      internalID: 1358431901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_18
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1089
+        width: 101
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6544a757e53bad74aa23ae4f4162ee5d
+      internalID: 338170294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_19
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1134
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446c760eae6a40340891a33fb2735c12
+      internalID: 1825565157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_25
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1059
+        width: 302
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edce3aa8ded74ab44ab7ba4f4903d473
+      internalID: -1262630885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_26
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 980
+        width: 81
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a3dc4405aced04c95c72f51c99914d
+      internalID: -1018818718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_27
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1012
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919bfde42fd0d474ab9312bed6909d96
+      internalID: 1815105232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_28
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1004
+        width: 90
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556fb3563045b3742863954d270fc21f
+      internalID: -2023805318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_29
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 988
+        width: 89
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee7bee93640c4c4ab510d59f7b05db8
+      internalID: 161226094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_30
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 990
+        width: 80
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea2224021c17d44fa962ac69e373ec2
+      internalID: -433858548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_31
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 972
+        width: 79
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b445e04f777f3b248a67e9dfd07ce953
+      internalID: 1638258621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_32
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 988
+        width: 81
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6de7d905687f24fbbba772b60b2e2c
+      internalID: -107348448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_33
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 980
+        width: 89
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a82743ebe3c3ba4490d780cc1efd139
+      internalID: 715217383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_35
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 993
+        width: 102
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f915960110f65b4ab2d0b9f0a6fa958
+      internalID: 1044306595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_37
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 982
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ab9765859077f4087f3845dd8adfe5
+      internalID: 1086773080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_40
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 992
+        width: 293
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10e122009f98dc4a9aa6180bc7eea93
+      internalID: 47373195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_46
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 228
+        width: 1417
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec058aea1b436f14384150517eb00976
+      internalID: -858952737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_47
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 612
+        width: 220
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83434e08232fb5640a539fe6a2300013
+      internalID: -1203002768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: twitternazwy2_4
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 1136
+        width: 265
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f75c3c844325b04cae5380d3c70aa41
+      internalID: -166866290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      twitternazwy2_0: 611425405
+      twitternazwy2_1: 886510924
+      twitternazwy2_10: -146941629
+      twitternazwy2_11: 416749222
+      twitternazwy2_12: -1431596968
+      twitternazwy2_13: 48437850
+      twitternazwy2_14: 1323767492
+      twitternazwy2_15: -1607745874
+      twitternazwy2_16: 1358431901
+      twitternazwy2_17: -1105850329
+      twitternazwy2_18: 338170294
+      twitternazwy2_19: 1825565157
+      twitternazwy2_2: -1071999379
+      twitternazwy2_20: -1280567776
+      twitternazwy2_21: -1909577017
+      twitternazwy2_22: -672841981
+      twitternazwy2_23: 5613768
+      twitternazwy2_24: -1427401094
+      twitternazwy2_25: -1262630885
+      twitternazwy2_26: -1018818718
+      twitternazwy2_27: 1815105232
+      twitternazwy2_28: -2023805318
+      twitternazwy2_29: 161226094
+      twitternazwy2_3: 330451548
+      twitternazwy2_30: -433858548
+      twitternazwy2_31: 1638258621
+      twitternazwy2_32: -107348448
+      twitternazwy2_33: 715217383
+      twitternazwy2_34: -186271550
+      twitternazwy2_35: 1044306595
+      twitternazwy2_36: -838635439
+      twitternazwy2_37: 1086773080
+      twitternazwy2_38: -2032254534
+      twitternazwy2_39: 963283560
+      twitternazwy2_4: -166866290
+      twitternazwy2_40: 47373195
+      twitternazwy2_41: 1129715543
+      twitternazwy2_42: 1728332873
+      twitternazwy2_43: 630507457
+      twitternazwy2_44: -1044514295
+      twitternazwy2_45: -1278374393
+      twitternazwy2_46: -858952737
+      twitternazwy2_47: -1203002768
+      twitternazwy2_5: -1991586455
+      twitternazwy2_6: 1790643608
+      twitternazwy2_7: 1269664024
+      twitternazwy2_8: -386136434
+      twitternazwy2_9: 1457590831
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

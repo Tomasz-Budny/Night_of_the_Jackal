@@ -20,10 +20,13 @@ namespace Assets.Scripts.Targets
         {
             _currentDestination = destination;
             _destinationAchieved = false;
+            AlignRotation();
         }
 
         private void Update()
         {
+            if (_currentDestination == Vector3.zero) return;
+
             var direction = transform.position - _currentDestination;
 
             var remainingDistance = math.abs(transform.position.x - _currentDestination.x);
@@ -37,7 +40,6 @@ namespace Assets.Scripts.Targets
             else
             {
                 visualController.SetIsWalking(true);
-                AlignRotation();
                 transform.position = Vector3.MoveTowards(transform.position, _currentDestination, speed * Time.deltaTime);
             }
         }
@@ -48,11 +50,11 @@ namespace Assets.Scripts.Targets
 
             if (direction.x < 0)
             {
-                visualController.transform.rotation = Quaternion.Euler(0, 180, 0);
+                transform.rotation = Quaternion.Euler(0, 180, 0);
             }
             else
             {
-                visualController.transform.rotation = Quaternion.Euler(0, 0, 0);
+                transform.rotation = Quaternion.Euler(0, 0, 0);
             }
         }
     }

@@ -21,7 +21,8 @@ namespace Assets.Scripts
         {
             if (_stickyNoteCount > maxStickyNotes) return;
 
-            Instantiate(stickyNotePrefab, stickyNotePosition.position, Quaternion.identity, stickyNoteParent);
+            var cratedStickyNote = Instantiate(stickyNotePrefab, stickyNotePosition.position, Quaternion.identity, stickyNoteParent);
+            cratedStickyNote.transform.SetAsFirstSibling();
             _stickyNoteCount++;
         }
 

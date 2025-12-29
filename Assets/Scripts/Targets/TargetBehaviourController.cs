@@ -11,12 +11,15 @@ namespace Assets.Scripts.Targets
         public Transform behaviourPosition;
         public string animationName;
         public float behaviourRotation;
+        public string emojiName = "";
     }
 
     internal class TargetBehaviourController : MonoBehaviour
     {
         public TargetSimpleMoveSystem moveSystem;
         public TargetVisualController visualController;
+        public TargetHitHandler hitHandler;
+        public ReactionHandler reactionHandler;
 
         public List<TargetBehaviour> targetBehaviours = new List<TargetBehaviour>();
         public bool mobileRoutines = true;
@@ -41,6 +44,7 @@ namespace Assets.Scripts.Targets
 
         public void OnHeardShot()
         {
+            reactionHandler.HideReaction();
             visualController.PlayAnimation("idle");
             var nearestEscapeRoot = EscapeManager.Instance.GetNearestEscapePath(transform);
             targetBehaviours.Clear();
@@ -68,18 +72,26 @@ namespace Assets.Scripts.Targets
 
         private void OnEscaped()
         {
-            TargetsManager.Instance.visibleTargetsCount--;
+            Debug.Log($"hitHandler.name: {hitHandler.name}");
+
+            TargetsManager.Instance.targetsOnArea.Remove(hitHandler.name);
             Destroy(gameObject);
         }
 
         private void OnDestinationAchieved()
         {
-            visualController.transform.rotation = Quaternion.Euler(0, targetBehaviours[_currentBehaviourIndex].behaviourRotation, 0);
+            transform.rotation = Quaternion.Euler(0, targetBehaviours[_currentBehaviourIndex].behaviourRotation, 0);
             visualController.PlayAnimation(targetBehaviours[_currentBehaviourIndex].animationName);
+
+            if(targetBehaviours[_currentBehaviourIndex].emojiName != string.Empty)
+                reactionHandler.ShowReaction(targetBehaviours[_currentBehaviourIndex].emojiName);
         }
 
         private void OnAnimationBehaviourEnds()
         {
+            if (!mobileRoutines) return;
+
+            reactionHandler.HideReaction();
             NextBehaviour();
             moveSystem.SetDestination(targetBehaviours[_currentBehaviourIndex].behaviourPosition.position);
 

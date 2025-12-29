@@ -3,7 +3,7 @@ using Assets.Scripts.Draggables;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler
+public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     protected RectTransform rt;
     protected Canvas canvas;
@@ -19,6 +19,13 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler
     {
         // Opcjonalnie: przenieœ na wierzch, ¿eby nie chowa³o siê pod innymi
         transform.SetAsLastSibling();
+        CursorManager.Instance.dragging = true;
+        DragManager.Instance.PlayDragSound();
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        CursorManager.Instance.dragging = false;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -43,6 +50,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler
         {
             eventData.pointerDrag = null;
             eventData.dragging = false;
+            CursorManager.Instance.dragging = false;
         }
     }
 

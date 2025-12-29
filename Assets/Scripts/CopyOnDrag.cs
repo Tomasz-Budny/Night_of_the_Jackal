@@ -1,5 +1,4 @@
-﻿using UnityEditor.Experimental.GraphView;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
 namespace Assets.Scripts
@@ -10,7 +9,7 @@ namespace Assets.Scripts
 
         public void OnBeginDrag(PointerEventData eventData)
         {
-            if(!dragged)
+            if (!dragged)
             {
                 StickyNoteManager.Instance.CreateStickyNote();
                 dragged = true;

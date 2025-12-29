@@ -37,6 +37,9 @@ namespace Assets.Scripts
 
         public void LoadCreditsScene()
         {
+            TimerManager.Instance.stopped = true;
+            GameManager.Instance.CalculateAccuracy();
+
             Debug.Log("Loading Credits Scene");
             SceneManager.UnloadSceneAsync("GameScene");
             LoadSceneAsync("CreditsScene");
@@ -45,7 +48,22 @@ namespace Assets.Scripts
         public void LoadMenu() => LoadSceneAsync("MenuScene");
         public void LoadGame()
         {
+            //OnStartGame();
             SceneManager.UnloadSceneAsync("MenuScene");
+            LoadSceneAsync("GameScene");
+        }
+
+        private void OnStartGame()
+        {
+            TimerManager.Instance.stopped = false;
+            TimerManager.Instance.ellapsedTime = 0;
+            MusicManager.Instance.PlayMusic();
+        }
+
+        public void RestartGame()
+        {
+            OnStartGame();
+            SceneManager.UnloadSceneAsync("CreditsScene");
             LoadSceneAsync("GameScene");
         }
 

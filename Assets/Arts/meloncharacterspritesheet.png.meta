@@ -1,0 +1,4197 @@
+fileFormatVersion: 2
+guid: c2a266ff26d27de4f83fc9dec31d6bed
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62efb043dc721cf49b15700a1deed658
+      internalID: 1937057591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c3e9a7bae00bf43a56dc50e8f4e885
+      internalID: 512606113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6459e5ca608d24b49be03316cfaa744e
+      internalID: 1429355617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbbff2e544361a46abd1d133e9738de
+      internalID: 1018310868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af598a746932b24692b928346698efb
+      internalID: 1927740702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c15d7d03e2c3184fa3d862dee94088b
+      internalID: 1853669850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4cfd915670e654cbad9f658ee1d2cf
+      internalID: -1868280159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bc1030b243f47459c8eba1afd92950
+      internalID: -1878407244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442fa301f54dd844198c8e892fed5484
+      internalID: 78925780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b495365dabfc2f4cb53bcd503fc1913
+      internalID: 1986232409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e1feed963eb3740a1033c98bffa296
+      internalID: -1455776713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cb9e9a122ebbf4ba07a762241c0be3
+      internalID: 1290617055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf994ecc21f85f345960224aca92711c
+      internalID: 993060608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b78c0cc00b874b4ab5031ddcc5acb6f
+      internalID: -843547360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 4312
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04772e3a02a1dfd49b6ef0acea60e4c8
+      internalID: 1672943275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e8bedbe3152874e8186a5f5e27149c
+      internalID: -473463933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4079cc05a9f37b45bf486f8b4723c95
+      internalID: 2043639070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59013451eebac841b5cb35487637e29
+      internalID: -1624530797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 5544
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd64b1a7ba6495b45b911268020f5398
+      internalID: 1129546345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcb2161b92b71046bb13e44c0b7ddbd
+      internalID: -770078991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4cf69db292ca443bd75c930ed6319b
+      internalID: -493751877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 6468
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7c7773ae9925549996df00a96e3aec
+      internalID: -1937293485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 6776
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641eabb9a70bdc64dbfa4638b26571ab
+      internalID: -2099157330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 7084
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58786f5138918741a09bb7254d1588c
+      internalID: 1649422926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 7392
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cfd7f933cc1354baa9f8eb89d022d3
+      internalID: 1613300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 1988
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739ceeb8a6a04c74da48222b39674d63
+      internalID: 644409107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7a11a82b87c4a458c19610ada2bb37
+      internalID: -1892059070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32f86ffd59f71b4e984b77c9d5a8e76
+      internalID: 778401920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe4b0cd16e1c974bb133845d74928b4
+      internalID: -1448508192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936e6b7f53b72304285e061c3910358c
+      internalID: -891825159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6baa271954a0c448c6507e5b937d77
+      internalID: 866992837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290cedfaf6b2ffd46a0d5595d67ced0c
+      internalID: -952394538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d82b4c9318607478e0cb89d9b65366
+      internalID: -1575212650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7efff9a0955a3409acff3b30c6bd0d
+      internalID: -515764280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1701503f1917b4488a655ee5e878b93
+      internalID: 1805042742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c1d21f2e22d464e840dc2ffa8b0f43
+      internalID: -1123978827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3f35eed9fd27141b102f08fc91c1a3
+      internalID: 12132073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863de05947c0e9942a2e3bbb4692f48f
+      internalID: -772186702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ea456deb01911479ae00225bac4d52
+      internalID: -1611286343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3560c806035a7b245ab726e879f1c782
+      internalID: 1167169393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 4312
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb165863b64b02a4087958e6a1762f0b
+      internalID: 1403194853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4052030d4764d55488608c2ed293f4b7
+      internalID: 1282665733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55979c26c9dc7ac4e80c43ecc71d2078
+      internalID: 167251783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62000ac2a9da27459cf236ebb20e0e8
+      internalID: 219398540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 5544
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ab63d7cfd69db4f8946cedf9f45ae8
+      internalID: 1960709026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d68cbe96b725ed4695412ff0291dc09
+      internalID: -104666266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371df69c85903f44690cab9ed70de4c1
+      internalID: -1295795412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 6468
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7b8c40b6dbe0242b6e7db4cd4cb9cc
+      internalID: 2024082618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 6776
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d71df702712034bb609d65fb81c7bd
+      internalID: 640186676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 7084
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57c5264ea9eb1e478a5bc91c0cd789e
+      internalID: -194458448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 7392
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c334a59253205964c9575e94f13bcbcd
+      internalID: 1090243130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 1704
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e3bade9972b7644ac7a56c97f99859
+      internalID: 827679638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26b249daf48a164c9f85c30dc39e271
+      internalID: 138029890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab52b334883c5fc4bac916a1ec42f88e
+      internalID: 462542603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5b2184ba590e4419942730c9310a3a
+      internalID: 1995500851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6df8b6380f0eac4ba6068b969c82b6b
+      internalID: 637919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4963ab87fd299944ca26a18204e43df8
+      internalID: 1434096599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210e9a5f6ea4a4d43b5048e1e655cc3b
+      internalID: 38641549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754d63e39e083c74388833be6dbe2991
+      internalID: 341196179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c139fb12d57f1b4b872ee960761bde7
+      internalID: -2008554121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab40021ed812a114caf0e74bbe7f0947
+      internalID: 459786040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215b760adb26dcb4d9e9e75795942abc
+      internalID: -257042009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f67c8d90a6f744dac68710359ed60e
+      internalID: -244080037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0008085dbe92214f89a1a247f3a9e15
+      internalID: -988866441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db71c9085097d2246a50409036a7192e
+      internalID: 475676705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70bf9496d0d40c44bf0e3c4bf02af82
+      internalID: 1044066032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 4312
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb537da6e68933146b02515083cc6406
+      internalID: -1115569564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b818a17f77da25149bdaf9e9cf920661
+      internalID: -687455535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4e5dd797ef3a448ac74d025ab4af9f
+      internalID: 2129468719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf80cab00b9bcb45a00194e9fe81bbc
+      internalID: -966396415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 5544
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9eeafd94eb010144ba3e1461f0d21fc
+      internalID: -936764557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15166f3773cfca5459599094b89927fe
+      internalID: 1789516992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22b51c64063f4a418b89291597994b6
+      internalID: 1985821840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 6468
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747e8970f244ba24ea656f79914d6b13
+      internalID: -368245093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 6776
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d558890805e8d08499ab4f1a8dce4a99
+      internalID: -319024124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 7084
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e732619b04b8e844faccfa4897e8d088
+      internalID: -504201804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 7392
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5911e6d01fe4bc946bae85e94d0bbfef
+      internalID: 2069046794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 1420
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5c2041a3236a742b9ef87e0acbaa39
+      internalID: 363664315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1d4750cd6457a4e986389bb31fd383
+      internalID: 1317762753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad21e3630134a17458aa7622e24146ad
+      internalID: -1929267523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cc6d88fb474fb4fa1a0e2d8fb678b1
+      internalID: -451698581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5f308acbc946441b8e178db1e253c0
+      internalID: -431898049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb65dff1f9e56f4eb558661317b90e4
+      internalID: -1565878149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c12fd1f9a4354e4a9037a38c55c33fe
+      internalID: -1109985482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba81bf3316bc9d42aeb526e1fc9a69d
+      internalID: 622698886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c3cc61baed2484abcb266e166be08c
+      internalID: 556040981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2d91e89232d8d47aa6523e81ea9dd5
+      internalID: 461282342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ceeae2ddf081d84698c63124b0b9e69
+      internalID: 45775407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a586ded8a5a264c8bd5ea62908f3da
+      internalID: -560377812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012d4b34db9f3d242a6aa0cb16afc51b
+      internalID: -1064450738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cef4e800e31904781c3a58c3314e61
+      internalID: 2112348851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88967975bb584254ab1bfc74160a08f9
+      internalID: -2075196600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 4312
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd57c318d9e9c7e46ace976a376ab70b
+      internalID: 421490431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49b2789641ef4e41aa21c5fbc3e408d
+      internalID: -1093226852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b8a8e12eafac54dac588a13e2dad79
+      internalID: -633193873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2218ff3ee72264c449f738be8b794f38
+      internalID: 1486675544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 5544
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a33f1a03b41dd8489f706d132c41820
+      internalID: -1005440657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2f978fe553e7b4f908a438a93b6b44
+      internalID: 1933446863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97b4eb6ecc16314c949421d2670c0b6
+      internalID: -139461236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 6468
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6526b127ccdf22348bcbb30c19f03a7a
+      internalID: 468191803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 6776
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a476d16f72d9c54383e44c5c8bc7f1a
+      internalID: -1475747635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 7084
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fbc12bdb7a8f34cb44c77caf20753f
+      internalID: 1493206301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 7392
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d48c97cbcda1dc4484157dbedd8ffd0
+      internalID: -1332578284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 1136
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6670f5f3d61164aa90f63e063e3fb1
+      internalID: -647962093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b13ce2aedab5104688e93a6d87f3f98
+      internalID: -514077332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7271845b6dc5348b91d69362b2a12f
+      internalID: 958468957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bb8ef16c5f8e546a135100bf9c0266
+      internalID: 260943703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af2e510d225f964393701a7de2d5f14
+      internalID: -1529020257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a5c99c010b4314e8934550c29283bf
+      internalID: 237271170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea859427703fd874caf2c731d80a5cc6
+      internalID: -1836794896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c1d37926601ed4db8dbe70cb5c05f6
+      internalID: -852936728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2e9b9df42347b41b12e7c3629ad305
+      internalID: 2009631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b2fcb71881f67408644cd6186e1555
+      internalID: -1976958398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae42375d3805ab941baba1273565ec31
+      internalID: -1734695553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ec7c62232ed884e973e18cb8a2e754
+      internalID: -1516079015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f959a860d805a68449cce0a8e29825bd
+      internalID: 527295940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfb10c826681dd41bdcfb2ff8c24642
+      internalID: -314086745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2db4ad0ce94914aa99c301c05380c6
+      internalID: -957651565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 4312
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f220b051c5139bb4fa8ba8d78565594c
+      internalID: 1695021748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4812f50767a42c64eb42fdf859f22a8a
+      internalID: 1905654145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0d7daffee70c84cae30f48dd594b2a
+      internalID: 1136409010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0cc4af16e80884da357ee9894a4dfa
+      internalID: 2103121562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 5544
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5486db148a37ff45b032cfdcb7e9193
+      internalID: -1331910765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2e66162ee804f4db395f88eb4ab71a
+      internalID: -971626799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2171df3f98e67fb4cb8cf9d717a267ea
+      internalID: 286169614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 6468
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad082d9af152f94b8b39bb95a64e1ab
+      internalID: -1984429139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 6776
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4863dd0d674d8b24b8e911de3c5ae972
+      internalID: 223304798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 7084
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7bb6628e8582e4c9d9aa865970e718
+      internalID: 1566805199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 7392
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1c054da30c868408fb52a09d90ac4f
+      internalID: -2071018898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 852
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff2f5ebb07c7fc41808755c0b71a3ed
+      internalID: 1284998616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03e6b4de30b64f4f8dcd74442b89e99
+      internalID: -836301409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3401b6286524146acd8b880b893146
+      internalID: 82143111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b758536d16f27be4693a291944aaac54
+      internalID: -1831846956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d61e070b71549e459a37d28cbdf8460
+      internalID: 854772690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbd0034383636a4e9d75349e5213e59
+      internalID: -983713165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13c6b03419ca824582ebe647264168a
+      internalID: 1200709563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f9080e51702af4996fdd179026c17d
+      internalID: -1345695266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d075e38b041376e44a98df0b6cfed731
+      internalID: -380214277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a234ce0d813d2642b807cbf393cf8af
+      internalID: 1843789764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62f1715e8b54d047a0ca72a45638fda
+      internalID: -830866024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49aa906332db5640812333e7f85689f
+      internalID: 1723247943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9880f45716d09840b3332d6f0a15ea2
+      internalID: -1316585247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17415707e4acd6143ba11903741db5df
+      internalID: 729226195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0963b98541ccb47a478f890c40211b
+      internalID: 1179168512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_144
+      rect:
+        serializedVersion: 2
+        x: 4312
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dca5ac34bad18941a11ea309187b921
+      internalID: 1437713875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_145
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3ccb19aaa1b3f409ba87a5672347eb
+      internalID: -374963478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_146
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bff81aa25d44c4d959e8d520ed4f25
+      internalID: -114627970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_147
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c429469e47a29e44099da44cc2fefd95
+      internalID: 1461358100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_148
+      rect:
+        serializedVersion: 2
+        x: 5544
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf9afbead69c924b8968167ec597695
+      internalID: 632972082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_149
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e959245f3c07b6a42aaf178ac6667fc4
+      internalID: -1264459477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_150
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b64f2459409ab547a0a40eacc17f616
+      internalID: -219202666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_151
+      rect:
+        serializedVersion: 2
+        x: 6468
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e541a34d93c7cd4390a6fb178cc0af4
+      internalID: -2108194742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_152
+      rect:
+        serializedVersion: 2
+        x: 6776
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2ffd022c2834742bb4019a98aa1da1
+      internalID: -1665082504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_153
+      rect:
+        serializedVersion: 2
+        x: 7084
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51554ca2c5403c246ab84facec01e4c2
+      internalID: 312429389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_154
+      rect:
+        serializedVersion: 2
+        x: 7392
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383622317eee6f94a8b98d67c03cfcc3
+      internalID: -2082862130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_155
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 568
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef701bdc9c03f684486e9e937c83bc4e
+      internalID: 920729980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e42fb272f9f294ba31ebcdc423fc3c
+      internalID: -2111174296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_157
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d51e6fff088fd42bcd68eba6f15a15
+      internalID: -1477306148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_158
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95997ab7ee673aa4d94e28ec36a3c87f
+      internalID: -1875963351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_159
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efaff098ed7214748a1ce4e1127dba0e
+      internalID: 967869329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_160
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c273a0bfc9bdf534caeb4e0238ea4a2a
+      internalID: -1473651297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_161
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3b170ec942fb9419884fd7b217b249
+      internalID: 1414758464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_162
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042e69b2a270861459e69210df8876c1
+      internalID: -224067594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_163
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11a2bf7a4c06be4480b610cb932082d
+      internalID: -151397789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_164
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc8e52e01d74e04c98e23f4051916b5
+      internalID: -334537151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_165
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80774cad4f3cbdd4c8295b871aa8011c
+      internalID: 370279745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_166
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2d68e01a004e846b51050a747aa4f8
+      internalID: -1552103743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_167
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bf3cfdff096fe4596f4cd8c26b2e58
+      internalID: 671337732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_168
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9b9c38e46180043a27dae0f21d5ff7
+      internalID: 1102717464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_169
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f8441d19e63e24a886f190c6a9486e
+      internalID: 1025250266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_170
+      rect:
+        serializedVersion: 2
+        x: 4312
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353b1ec16d4258846bad099db5af19ad
+      internalID: -1460460348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_171
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e127a105da99e9d4591dd3147f7b7c41
+      internalID: 1194395653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_172
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e04d048517407a47b5b198e1b4aa115
+      internalID: 1136151577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_173
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c53ab4e63cfaf9428e15a11e3c854bb
+      internalID: 2019118637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_174
+      rect:
+        serializedVersion: 2
+        x: 5544
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6547b72108d4943b4115742db58e45
+      internalID: 519486032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_175
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21daebda4e82e6a46b0493bf17faf3d6
+      internalID: 368431729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_176
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869bb22bd1060f440ae927cd7c99707a
+      internalID: 573737978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_177
+      rect:
+        serializedVersion: 2
+        x: 6468
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1812251bad6414aa4d4fbe6b7e45dc
+      internalID: 1894535518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_178
+      rect:
+        serializedVersion: 2
+        x: 6776
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4571d788bcafb1e4ab5152bb716ce805
+      internalID: 1620783794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_179
+      rect:
+        serializedVersion: 2
+        x: 7084
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5e4886089094c408d568fefc070e09
+      internalID: -17773349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_180
+      rect:
+        serializedVersion: 2
+        x: 7392
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc9e9c604eaaf746ac329544308df49
+      internalID: 1323738387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_181
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 284
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d9bc8d346236348b4f98caf4f060c6
+      internalID: -1927861400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2514d477a6958e04499ca9a65e72106e
+      internalID: -1092434399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_183
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ef28c2068cef74f8616e73d4c858f6
+      internalID: 1957433231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meloncharacterspritesheet_184
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 0
+        width: 308
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466ac64a90eb01e468a8f55d6bd2a879
+      internalID: -967659451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      meloncharacterspritesheet_0: 1937057591
+      meloncharacterspritesheet_1: 512606113
+      meloncharacterspritesheet_10: -1455776713
+      meloncharacterspritesheet_100: -1475747635
+      meloncharacterspritesheet_101: 1493206301
+      meloncharacterspritesheet_102: -1332578284
+      meloncharacterspritesheet_103: -647962093
+      meloncharacterspritesheet_104: -514077332
+      meloncharacterspritesheet_105: 958468957
+      meloncharacterspritesheet_106: 260943703
+      meloncharacterspritesheet_107: -1529020257
+      meloncharacterspritesheet_108: 237271170
+      meloncharacterspritesheet_109: -1836794896
+      meloncharacterspritesheet_11: 1290617055
+      meloncharacterspritesheet_110: -852936728
+      meloncharacterspritesheet_111: 2009631
+      meloncharacterspritesheet_112: -1976958398
+      meloncharacterspritesheet_113: -1734695553
+      meloncharacterspritesheet_114: -1516079015
+      meloncharacterspritesheet_115: 527295940
+      meloncharacterspritesheet_116: -314086745
+      meloncharacterspritesheet_117: -957651565
+      meloncharacterspritesheet_118: 1695021748
+      meloncharacterspritesheet_119: 1905654145
+      meloncharacterspritesheet_12: 993060608
+      meloncharacterspritesheet_120: 1136409010
+      meloncharacterspritesheet_121: 2103121562
+      meloncharacterspritesheet_122: -1331910765
+      meloncharacterspritesheet_123: -971626799
+      meloncharacterspritesheet_124: 286169614
+      meloncharacterspritesheet_125: -1984429139
+      meloncharacterspritesheet_126: 223304798
+      meloncharacterspritesheet_127: 1566805199
+      meloncharacterspritesheet_128: -2071018898
+      meloncharacterspritesheet_129: 1284998616
+      meloncharacterspritesheet_13: -843547360
+      meloncharacterspritesheet_130: -836301409
+      meloncharacterspritesheet_131: 82143111
+      meloncharacterspritesheet_132: -1831846956
+      meloncharacterspritesheet_133: 854772690
+      meloncharacterspritesheet_134: -983713165
+      meloncharacterspritesheet_135: 1200709563
+      meloncharacterspritesheet_136: -1345695266
+      meloncharacterspritesheet_137: -380214277
+      meloncharacterspritesheet_138: 1843789764
+      meloncharacterspritesheet_139: -830866024
+      meloncharacterspritesheet_14: 1672943275
+      meloncharacterspritesheet_140: 1723247943
+      meloncharacterspritesheet_141: -1316585247
+      meloncharacterspritesheet_142: 729226195
+      meloncharacterspritesheet_143: 1179168512
+      meloncharacterspritesheet_144: 1437713875
+      meloncharacterspritesheet_145: -374963478
+      meloncharacterspritesheet_146: -114627970
+      meloncharacterspritesheet_147: 1461358100
+      meloncharacterspritesheet_148: 632972082
+      meloncharacterspritesheet_149: -1264459477
+      meloncharacterspritesheet_15: -473463933
+      meloncharacterspritesheet_150: -219202666
+      meloncharacterspritesheet_151: -2108194742
+      meloncharacterspritesheet_152: -1665082504
+      meloncharacterspritesheet_153: 312429389
+      meloncharacterspritesheet_154: -2082862130
+      meloncharacterspritesheet_155: 920729980
+      meloncharacterspritesheet_156: -2111174296
+      meloncharacterspritesheet_157: -1477306148
+      meloncharacterspritesheet_158: -1875963351
+      meloncharacterspritesheet_159: 967869329
+      meloncharacterspritesheet_16: 2043639070
+      meloncharacterspritesheet_160: -1473651297
+      meloncharacterspritesheet_161: 1414758464
+      meloncharacterspritesheet_162: -224067594
+      meloncharacterspritesheet_163: -151397789
+      meloncharacterspritesheet_164: -334537151
+      meloncharacterspritesheet_165: 370279745
+      meloncharacterspritesheet_166: -1552103743
+      meloncharacterspritesheet_167: 671337732
+      meloncharacterspritesheet_168: 1102717464
+      meloncharacterspritesheet_169: 1025250266
+      meloncharacterspritesheet_17: -1624530797
+      meloncharacterspritesheet_170: -1460460348
+      meloncharacterspritesheet_171: 1194395653
+      meloncharacterspritesheet_172: 1136151577
+      meloncharacterspritesheet_173: 2019118637
+      meloncharacterspritesheet_174: 519486032
+      meloncharacterspritesheet_175: 368431729
+      meloncharacterspritesheet_176: 573737978
+      meloncharacterspritesheet_177: 1894535518
+      meloncharacterspritesheet_178: 1620783794
+      meloncharacterspritesheet_179: -17773349
+      meloncharacterspritesheet_18: 1129546345
+      meloncharacterspritesheet_180: 1323738387
+      meloncharacterspritesheet_181: -1927861400
+      meloncharacterspritesheet_182: -1092434399
+      meloncharacterspritesheet_183: 1957433231
+      meloncharacterspritesheet_184: -967659451
+      meloncharacterspritesheet_19: -770078991
+      meloncharacterspritesheet_2: 1429355617
+      meloncharacterspritesheet_20: -493751877
+      meloncharacterspritesheet_21: -1937293485
+      meloncharacterspritesheet_22: -2099157330
+      meloncharacterspritesheet_23: 1649422926
+      meloncharacterspritesheet_24: 1613300032
+      meloncharacterspritesheet_25: 644409107
+      meloncharacterspritesheet_26: -1892059070
+      meloncharacterspritesheet_27: 778401920
+      meloncharacterspritesheet_28: -1448508192
+      meloncharacterspritesheet_29: -891825159
+      meloncharacterspritesheet_3: 1018310868
+      meloncharacterspritesheet_30: 866992837
+      meloncharacterspritesheet_31: -952394538
+      meloncharacterspritesheet_32: -1575212650
+      meloncharacterspritesheet_33: -515764280
+      meloncharacterspritesheet_34: 1805042742
+      meloncharacterspritesheet_35: -1123978827
+      meloncharacterspritesheet_36: 12132073
+      meloncharacterspritesheet_37: -772186702
+      meloncharacterspritesheet_38: -1611286343
+      meloncharacterspritesheet_39: 1167169393
+      meloncharacterspritesheet_4: 1927740702
+      meloncharacterspritesheet_40: 1403194853
+      meloncharacterspritesheet_41: 1282665733
+      meloncharacterspritesheet_42: 167251783
+      meloncharacterspritesheet_43: 219398540
+      meloncharacterspritesheet_44: 1960709026
+      meloncharacterspritesheet_45: -104666266
+      meloncharacterspritesheet_46: -1295795412
+      meloncharacterspritesheet_47: 2024082618
+      meloncharacterspritesheet_48: 640186676
+      meloncharacterspritesheet_49: -194458448
+      meloncharacterspritesheet_5: 1853669850
+      meloncharacterspritesheet_50: 1090243130
+      meloncharacterspritesheet_51: 827679638
+      meloncharacterspritesheet_52: 138029890
+      meloncharacterspritesheet_53: 462542603
+      meloncharacterspritesheet_54: 1995500851
+      meloncharacterspritesheet_55: 637919
+      meloncharacterspritesheet_56: 1434096599
+      meloncharacterspritesheet_57: 38641549
+      meloncharacterspritesheet_58: 341196179
+      meloncharacterspritesheet_59: -2008554121
+      meloncharacterspritesheet_6: -1868280159
+      meloncharacterspritesheet_60: 459786040
+      meloncharacterspritesheet_61: -257042009
+      meloncharacterspritesheet_62: -244080037
+      meloncharacterspritesheet_63: -988866441
+      meloncharacterspritesheet_64: 475676705
+      meloncharacterspritesheet_65: 1044066032
+      meloncharacterspritesheet_66: -1115569564
+      meloncharacterspritesheet_67: -687455535
+      meloncharacterspritesheet_68: 2129468719
+      meloncharacterspritesheet_69: -966396415
+      meloncharacterspritesheet_7: -1878407244
+      meloncharacterspritesheet_70: -936764557
+      meloncharacterspritesheet_71: 1789516992
+      meloncharacterspritesheet_72: 1985821840
+      meloncharacterspritesheet_73: -368245093
+      meloncharacterspritesheet_74: -319024124
+      meloncharacterspritesheet_75: -504201804
+      meloncharacterspritesheet_76: 2069046794
+      meloncharacterspritesheet_77: 363664315
+      meloncharacterspritesheet_78: 1317762753
+      meloncharacterspritesheet_79: -1929267523
+      meloncharacterspritesheet_8: 78925780
+      meloncharacterspritesheet_80: -451698581
+      meloncharacterspritesheet_81: -431898049
+      meloncharacterspritesheet_82: -1565878149
+      meloncharacterspritesheet_83: -1109985482
+      meloncharacterspritesheet_84: 622698886
+      meloncharacterspritesheet_85: 556040981
+      meloncharacterspritesheet_86: 461282342
+      meloncharacterspritesheet_87: 45775407
+      meloncharacterspritesheet_88: -560377812
+      meloncharacterspritesheet_89: -1064450738
+      meloncharacterspritesheet_9: 1986232409
+      meloncharacterspritesheet_90: 2112348851
+      meloncharacterspritesheet_91: -2075196600
+      meloncharacterspritesheet_92: 421490431
+      meloncharacterspritesheet_93: -1093226852
+      meloncharacterspritesheet_94: -633193873
+      meloncharacterspritesheet_95: 1486675544
+      meloncharacterspritesheet_96: -1005440657
+      meloncharacterspritesheet_97: 1933446863
+      meloncharacterspritesheet_98: -139461236
+      meloncharacterspritesheet_99: 468191803
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
